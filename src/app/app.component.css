@@ -11,19 +11,12 @@
     display: block;
   }
 
-  footer {
-    background-color: #f1f1f1;
-    padding: 20px;
-    position: absolute;
-    top: 700px;
-    width: 100%;
-    text-align:  center;
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
 
-  }
   
-  footer p {
-    margin-bottom: 10px;
-  }
   
   footer ul {
     list-style: none;
@@ -39,3 +32,39 @@
   footer li:last-child {
     margin-right: 0;
   }
+
+  .navletter{
+    font-weight: bolder;
+    color: black;
+  }
+
+  .logoLetter{
+    font-weight: bolder;
+    color: black;
+    font-size: xx-large;
+  }
+
+  .navimg{
+    background-image: url("../assets/nav.jpg");
+  }
+
+  .whats {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whapp{
+  border-radius: 50px;
+  width: 60px;
+    height: 60px;
+}
