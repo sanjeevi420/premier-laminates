@@ -1,0 +1,26 @@
+.brnd{
+    background-image: url("../../assets/bg-2-home-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brdr{
+    border-style: solid;
+    border-radius: 10%;
+    border: 3%;
+}
+.brand{
+    border: 3%;
+    height: 10rem;
+}
+
+.blog{
+    font-family: 'COMFORTAA-VARIABLEFONT_WGHT__subset', COMFORTAA-VARIABLEFONT_WGHT, "open sans", Georgia;
+    padding: 30px;
+    color: #000;
+    background-color: #ffffff;
+    opacity: 0.7;
+    width: 30px;
+    border-radius: 12%;
+    border-style: solid;
+}

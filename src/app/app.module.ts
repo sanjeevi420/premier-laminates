@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactComponent } from './contact/contact.component';
+import { LaminatorComponent } from './laminator/laminator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutusComponent,
-    ContactComponent
+    ContactComponent,
+    LaminatorComponent
   ],
   imports: [
     BrowserModule,
