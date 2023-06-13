@@ -1,6 +1,6 @@
 {
   "name": "premier-laminates",
-  "homepage": "http://sanjeevi420.github.io/premierlaminates/",
+  "homepage": "https://sanjeevi420.github.io/premierlaminates/",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@agm/core": "^3.0.0-beta.0",
     "@angular/animations": "^15.0.0",
