@@ -19,8 +19,5 @@ export class AboutusComponent {
         this.updateCounter();
       },1)
     }
-  }
-
-
-  
+  } 
 }

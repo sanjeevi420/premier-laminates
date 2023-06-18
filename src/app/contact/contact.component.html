@@ -44,7 +44,7 @@
     </div>
     <div class="row pad1">
         <div class="col-4"> 
-            <input id="fname" name="fname"  type="text" class="form-control" placeholder="First Name" required=""> 
+            <input id="fname" name="fname"  type="text" class="form-control" placeholder="First Name *" required="needed"> 
             <span class="focus-border"></span>
         </div>
         <div class="col-4"> 
@@ -58,7 +58,7 @@
             <span class="focus-border"></span>
         </div>
         <div class="col-4"> 
-            <input id="contact" name="contact"  type="text" class="form-control" placeholder="Mobile" required="" data-constraints="@PhoneNumber"> 
+            <input id="contact" name="contact"  type="text" class="form-control" placeholder="Mobile *" required="needed" data-constraints="@PhoneNumber"> 
             <span class="focus-border"></span>
         </div>
     </div>
@@ -71,7 +71,7 @@
 
     <div class="row pad1">
         <div class="col-6">
-            <textarea id="description" class="form-control" name="description" placeholder="Query" rows="3"></textarea>
+            <textarea id="description" required="needed" class="form-control" name="description" placeholder="Query *" rows="3"></textarea>
         <span class="focus-border"></span>
         </div>
     </div>
@@ -83,6 +83,10 @@
 
     <div *ngIf="succFlag" class="row pad1">
         <div class="p-3 mb-5 bg-success text-white">ThankYou .... We will connect with you</div>
+
+    </div>
+    <div *ngIf="errFlag" class="row pad1">
+        <div class="p-3 mb-5 bg-danger text-white">Please enter all needed details</div>
 
     </div>
 </div>

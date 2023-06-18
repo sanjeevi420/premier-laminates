@@ -14,6 +14,7 @@ export class ContactComponent {
     address :any
     message :any
     succFlag:boolean=false
+    errFlag:boolean=false
 
 
   gentrateMessage(){
@@ -24,7 +25,14 @@ export class ContactComponent {
       this.address = (<HTMLInputElement>document.getElementById('address')).value;
       this.message = (<HTMLInputElement>document.getElementById('description')).value;
 
-     let whatsappMessage = `Name: ${this.fname+" "+this.lname}\nContract: ${this.phone+" "+this.email}\nAddress: ${this.address}\n\nMessage: ${this.message}`;
+      console.log(this.fname)
+      if(this.fname==="" || this.phone==="" || this.message===""){
+        this.errFlag=true;
+        setTimeout(() => {
+          this.errFlag=false;
+        }, 5000);
+      }else{
+        let whatsappMessage = `Name: ${this.fname+" "+this.lname}\Phone: ${this.phone+" "+this.email}\Email: ${this.email}\nAddress: ${this.address}\n\n ${this.message}`;
     
       const encodedMessage = encodeURIComponent(whatsappMessage);
       const whatsappUrl = `https://api.whatsapp.com/send?phone=9952053315&text=${encodedMessage}`;
@@ -33,5 +41,6 @@ export class ContactComponent {
       setTimeout(() => {
         location.reload()
       }, 5000);
+      }
   }
 }
