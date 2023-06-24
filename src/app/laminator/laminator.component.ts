@@ -6,4 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./laminator.component.css']
 })
 export class LaminatorComponent {
+  isPopupVisible = false;
+  
+  showPopup() {
+    this.isPopupVisible = true;
+    alert("isPopupVisible : " + this.isPopupVisible);
+  }
+
+  hidePopup() {
+    this.isPopupVisible = false;
+    alert("isPopupVisible : " + this.isPopupVisible);
+  }
 }

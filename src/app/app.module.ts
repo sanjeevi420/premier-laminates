@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactComponent } from './contact/contact.component';
 import { LaminatorComponent } from './laminator/laminator.component';
+import { PopupComponent } from './laminator/popup/popup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutusComponent,
     ContactComponent,
-    LaminatorComponent
+    LaminatorComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
