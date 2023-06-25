@@ -10,6 +10,7 @@ const routes: Routes = [
   {path: '', redirectTo: '/aboutus', pathMatch: 'full'},
   { path: 'aboutus', component: AboutusComponent },
   { path: 'laminator', component: LaminatorComponent },
+  { path: 'popup', component: PopupComponent },
   { path: 'contact', component: ContactComponent }
 ];
 

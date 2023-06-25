@@ -14,6 +14,8 @@ import { PopupComponent } from './laminator/popup/popup.component';
     AppComponent,
     AboutusComponent,
     ContactComponent,
+    PopupComponent,
+    PhotoComponent,
     LaminatorComponent
   ],
   imports: [

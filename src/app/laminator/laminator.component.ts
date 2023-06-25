@@ -10,11 +10,9 @@ export class LaminatorComponent {
   
   showPopup() {
     this.isPopupVisible = true;
-    alert("isPopupVisible : " + this.isPopupVisible);
   }
 
   hidePopup() {
     this.isPopupVisible = false;
-    alert("isPopupVisible : " + this.isPopupVisible);
   }
 }
