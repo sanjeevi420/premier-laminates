@@ -18,7 +18,6 @@
     color: #000;
     background-color: #ffffff;
     opacity: 0.7;
-    width: 30px;
     border-radius: 12%;
     border-style: solid;
 }
@@ -71,13 +70,61 @@
 
 .brand{
     border: 3%;
-    height: 50rem;
+    height: 250px;
+    gap: calc(2);
+
 }
 
+.gap{
+    left: 20px;
+}
 .number{
     font-size: xx-large;
     font-weight: bolder;
     padding-top: 150px;
 }
 
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #000000;
+    color: white;
+    transform: rotateX(180deg);
+    width: 300px;
+    height: 650px;
+    position: relative;
+    bottom: 400px;
+  }
 

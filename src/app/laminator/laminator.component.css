@@ -25,6 +25,11 @@
     border-style: solid;
 }
 
+.dwn{
+    font-family: 'COMFORTAA-VARIABLEFONT_WGHT__subset', COMFORTAA-VARIABLEFONT_WGHT, "open sans", Georgia;
+    color: #000;
+    font-weight: bolder;
+}
 .advan{
     background-color: rgb(185, 194, 245);
     height: 400px;
