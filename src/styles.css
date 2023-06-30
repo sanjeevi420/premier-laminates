@@ -115,3 +115,9 @@ footer p {
   color: white;
   transform: rotateY(180deg);
 }
+
+.video-mask{
+  width: 350px;
+  border-radius: 10px; 
+  overflow: hidden; 
+}
