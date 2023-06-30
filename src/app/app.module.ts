@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { LaminatorComponent } from './laminator/laminator.component';
 import { PhotoComponent } from './photo/photo.component';
 import { PopupComponent } from './laminator/popup/popup.component';
+import { ImageListComponentComponent } from './laminator/image-list-component/image-list-component.component';
+import { ImageComponentComponent } from './laminator/image-list-component/image-component/image-component.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PopupComponent } from './laminator/popup/popup.component';
     ContactComponent,
     PopupComponent,
     PhotoComponent,
-    LaminatorComponent
+    LaminatorComponent,
+    ImageListComponentComponent,
+    ImageComponentComponent
   ],
   imports: [
     BrowserModule,
