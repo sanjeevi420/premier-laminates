@@ -13,14 +13,16 @@
       </div>
 
       <div class="col-2">
-        <div class="card">
-          <img src="../../assets/lami_kitc.jpg" class="brand">
-          <h5 style="text-align: center;">Kitchen Cabinet</h5>
+        <div class="card" >
+          <img src="../../assets/lami_kitc.jpg" class="brand" (click)="showPopup('Kitchen Cabinet')">
+          <app-popup *ngIf="isPopupVisible" (closePopup)="hidePopup()"></app-popup>
+          <h5 style="text-align: center;" >Kitchen Cabinet</h5>
         </div>
       </div>
       <div class="col-2">
         <div class="card">
-          <img src="../../assets/lam_tv.jpg" class="brand">
+          <img src="../../assets/lam_tv.jpg" class="brand" (click)="showPopup('TV Units')">
+          <app-popup *ngIf="isPopupVisible" (closePopup)="hidePopup()"></app-popup>
           <h5 style="text-align: center;">TV Units</h5>
         </div>
       </div>

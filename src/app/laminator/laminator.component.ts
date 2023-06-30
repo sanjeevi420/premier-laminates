@@ -7,12 +7,22 @@ import { Component } from '@angular/core';
 })
 export class LaminatorComponent {
   isPopupVisible = false;
+  selectedpics:any;
   
-  showPopup() {
+  showPopup(data:any) {
     this.isPopupVisible = true;
+    this.selectedpics=data;
   }
 
   hidePopup() {
     this.isPopupVisible = false;
+  }
+
+  setData(data:any){
+    this.selectedpics=data;
+  }
+
+  getData():any{
+    return this.selectedpics
   }
 }
