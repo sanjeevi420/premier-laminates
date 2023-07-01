@@ -15,14 +15,20 @@
 .blog{
     font-family: 'COMFORTAA-VARIABLEFONT_WGHT__subset', COMFORTAA-VARIABLEFONT_WGHT, "open sans", Georgia;
     padding: 30px;
-    color: #000;
-    background-color: #ffffff;
-    opacity: 0.7;
+    color: white;
+    background-color:rgb(80, 65, 50);
+    border-radius: 12%;
+    border-style: solid;
+}
+.videoblog{
+    padding: 20px;
+    color: white;
+    background-color:rgb(80, 65, 50);
     border-radius: 12%;
     border-style: solid;
 }
 .intr{
-    background-image: url("../../assets/im.jpg");
+    background-image: url("../../assets/introimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1080px;
