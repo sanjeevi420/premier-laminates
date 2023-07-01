@@ -13,11 +13,6 @@ export class AboutusComponent {
   }
 
   updateCounter() {
-    this.newValue = this.newValue + 1;
-    if(this.newValue<4500){
-      setTimeout(()=>{
-        this.updateCounter();
-      },1)
-    }
+
   } 
 }

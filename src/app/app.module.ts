@@ -24,7 +24,7 @@ import { ImageComponentComponent } from './laminator/image-list-component/image-
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
