@@ -38,7 +38,7 @@
 
   .us1{
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center !important;
     color: #fff;
   }
@@ -48,6 +48,13 @@
     font-size: 16px;
     text-align: center !important;
     color: #fff;
+  }
+
+  .us3{
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center !important;
+    color: #000;
   }
 
   .pad{
