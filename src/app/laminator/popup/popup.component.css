@@ -3,7 +3,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 350px;
+    height: 550px;
     width: 1100px;
     padding: 20px;
     background-color: rgb(196, 194, 194);
@@ -15,4 +15,5 @@
     height:200px;
     width: 250px;
     border: solid;
+    tab-size: 4;
   }
