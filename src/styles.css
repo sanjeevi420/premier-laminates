@@ -31,7 +31,7 @@
 
   .us{
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 16px;
     text-align: center !important;
     color: #000;
   }
@@ -39,6 +39,13 @@
   .us1{
     font-weight: bolder;
     font-size: 48px;
+    text-align: center !important;
+    color: #fff;
+  }
+
+  .us2{
+    font-weight: bolder;
+    font-size: 16px;
     text-align: center !important;
     color: #fff;
   }
@@ -117,7 +124,7 @@ footer p {
 }
 
 .video-mask{
-  width: 350px;
+  width: 200px;
   border-radius: 10px; 
   overflow: hidden; 
 }
