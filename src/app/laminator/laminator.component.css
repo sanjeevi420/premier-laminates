@@ -1,5 +1,5 @@
 .brnd{
-    background-image: url("../../assets/declamiimage.jpg");
+    background-image: url("../../assets/certificates/Capture.PNG");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,4 +35,13 @@
 .advan{
     background-color: rgb(185, 194, 245);
     height: 400px;
+}
+.blink {
+    animation: blinker 1.5s linear infinite;
+    transition: 0.75s;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0.6;
+    }
 }
