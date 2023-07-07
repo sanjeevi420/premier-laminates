@@ -67,6 +67,16 @@
     z-index: 100;
 }
 
+.soli {
+  position: fixed;
+  /* width: 30px;
+  height: 30px; */
+  top: 80px;
+  right: 40px;
+  font-size: 30px;
+  z-index: 100;
+}
+
 .whapp{
   border-radius: 50px;
   width: 60px;

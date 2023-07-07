@@ -9,10 +9,8 @@ export class AboutusComponent {
 
   newValue:any=0;
   ngOnInit():void{
-    this.updateCounter();
+   
   }
 
-  updateCounter() {
-
-  } 
+  
 }

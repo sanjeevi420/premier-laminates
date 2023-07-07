@@ -135,7 +135,7 @@
   }
 
   .lineUp {
-    animation: 10s anim-lineUp ease-out;
+    animation: 3s anim-lineUp ease-out;
   }
   @keyframes anim-lineUp {
     0% {
@@ -166,14 +166,14 @@
   }
 
   .sl{
-    animation:  5s slidein ease-out;
+    animation:slidein ease-out;
     animation-delay: 5s;
   }
   
   @keyframes slidein {
     from {
       margin-left: 30%;
-      width: 130%;
+      width: 10%;
       color: #ffffff;
     }
   
