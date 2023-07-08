@@ -28,7 +28,8 @@
       </div>
       <div class="col-2">
         <div class="card">
-          <img src="../../assets/ward_lam.jpg" class="brand">
+          <img src="../../assets/ward_lam.jpg" class="brand" (click)="showPopup('Wardrobe')">
+          <app-popup *ngIf="isPopupVisible" (closePopup)="hidePopup()"></app-popup>
           <h5 style="text-align: center;">Wardrobe</h5>
         </div>
       </div>
@@ -40,7 +41,8 @@
       </div>
       <div class="col-2">
         <div class="card">
-          <img src="../../assets/door.jpg" class="brand">
+          <img src="../../assets/door.jpg" class="brand" (click)="showPopup('Laminator Doors')">
+          <app-popup *ngIf="isPopupVisible" (closePopup)="hidePopup()"></app-popup>
           <h5 style="text-align: center;">Laminated Doors</h5>
         </div>
       </div>
@@ -136,7 +138,7 @@
           <div class="col-1"></div>
           <div class="col-4">
             <span class="dwn">Available in 0.8mm : </span>
-            <a href="../../assets/Documents/MIcas 0.8 mm.pdf" download="MIcas 0.8 mm.pdf"> <img src="../../assets/mica.8book.PNG" width="200"></a>
+            <a href="../../assets/Documents/MIcas 0.8 mm.pdf" download="MIcas 0.8 mm.pdf"> <img src="../../assets/mica8book.PNG" width="200"></a>
           </div>
           <div class="col-2"></div>
           <div class="col-4">
