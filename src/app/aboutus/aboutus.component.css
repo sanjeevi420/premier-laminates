@@ -16,19 +16,20 @@
     font-family: 'COMFORTAA-VARIABLEFONT_WGHT__subset', COMFORTAA-VARIABLEFONT_WGHT, "open sans", Georgia;
     padding: 30px;
     color: white;
-    background-color:rgb(80, 65, 50);
+    /*background-color:rgb(80, 65, 50);*/
+    background-color:rgb(50, 73, 80);
     border-radius: 12%;
     border-style: solid;
 }
 .videoblog{
     padding: 20px;
     color: white;
-    background-color:rgb(80, 65, 50);
+    background-color:rgb(50, 73, 80);
     border-radius: 12%;
     border-style: solid;
 }
 .intr{
-    background-image: url("../../assets/introimage.jpg");
+    background-image: url("../../assets/introimage5.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     height: 1080px;
@@ -36,11 +37,11 @@
 }
 
 .intr1{
-  background-image: url("../../assets/teambgimg4.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1080px;
-    width: 1350px;
+  background-image: url("../../assets/teambgimg15.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1080px;
+  width: 1345px;
 }
 
 .intr2{
